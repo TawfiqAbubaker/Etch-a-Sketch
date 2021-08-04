@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
 </head>
 <body>
-    
+    <main>
+        <div class="title">
+            <h1>Etch-a-Sketch</h1>
+        </div>
+    <div class="main_area">
+        <div class="settings">
+            <div class="color">
+                <label for="colorpicker">Color Picker:</label>
+                <input type="color" id="colorpicker" value="#d8e2dc">
+            </div>
+            <div class="buttons">
+                <button class="singleColor">Single Color</button>
+                <button class="randomColors">Random Colors</button>
+                <button class="reset">Reset</button>
+                <p>1 x 1</p>
+                <input id="dimensionSlider" type="range" value="16" min="1" max="64">
+            </div>
+        </div>
+        <div class="gridArea">
+        </div>
+    </div>
+    </main>
+    <footer>
+        <h4><a href="https://github.com/TawfiqAbubaker">Copyright © 2021 Tawfiq Abubaker</a></h4>
+        </footer>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
